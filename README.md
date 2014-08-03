@@ -1,3 +1,5 @@
+[![wercker status](https://app.wercker.com/status/12c836528bbd42f7cc510e32f25f4451/m "wercker status")](https://app.wercker.com/project/bykey/12c836528bbd42f7cc510e32f25f4451)
+
 # Hubot
 
 This is a version of GitHub's Campfire bot, hubot. He's pretty cool.

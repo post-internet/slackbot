@@ -1,0 +1,13 @@
+box: wercker/nodejs
+build:
+  steps:
+    - npm-install
+    - npm-test
+deploy:
+  steps:
+    - heroku-deploy
+  after-steps:
+    - sherzberg/slack-notify:
+        subdomain: "meiji"
+        token: $SLACK_TOKEN
+        channel: "general"
