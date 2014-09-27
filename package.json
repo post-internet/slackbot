@@ -23,7 +23,7 @@
   "dependencies": {
     "hubot": ">= 2.6.0 < 3.0.0",
     "hubot-lgtm": "git://github.com/bouzuya/hubot-lgtm.git",
-    "hubot-github-repo-event-notifier": ">= 0.0.0",
+    "hubot-github-repo-event-notifier": "https://github.com/martinb3/hubot-github-repo-event-notifier.git",
     "hubot-scripts": ">= 2.5.0 < 3.0.0",
     "hubot-slack": "^2.1.1",
     "hubot-zoi": "^0.1.0"
