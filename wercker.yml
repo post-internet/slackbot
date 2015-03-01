@@ -8,6 +8,4 @@ deploy:
     - heroku-deploy
   after-steps:
     - wantedly/pretty-slack-notify:
-        team: post-intenet
-        token: $SLACK_API_TOKEN
-        channel: general
+        webhook_url: $SLACK_WEBHOOK_URL
