@@ -7,9 +7,8 @@ deploy:
   steps:
     - heroku-deploy
   after-steps:
-    - sherzberg/slack-notify:
-        subdomain: meiji
-        token: $SLACK_TOKEN
-        channel: "#general"
-        username: wercker
-        icon_url: https://avatars3.githubusercontent.com/u/1695193?s=140
+    - wantedly/pretty-slack-notify:
+      team: post-intenet
+      token: $SLACK_API_TOKEN
+      channel: general
+
