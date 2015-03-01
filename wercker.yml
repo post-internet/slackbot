@@ -5,7 +5,7 @@ build:
     - npm-test
 deploy:
   steps:
-    - heroku-deploy
+    - heroku-deploy:
         key-name: MY_DEPLOY_KEY
   after-steps:
     - wantedly/pretty-slack-notify:
