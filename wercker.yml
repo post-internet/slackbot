@@ -3,6 +3,9 @@ build:
   steps:
     - npm-install
     - npm-test
+  after-steps:
+    - wantedly/pretty-slack-notify:
+        webhook_url: $SLACK_WEBHOOK_URL
 deploy:
   steps:
     - heroku-deploy:
